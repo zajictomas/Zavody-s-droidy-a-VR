@@ -59,6 +59,37 @@
     }
 }
 
+@media only screen and (max-width: 910px){
+    /***** Mobile navigation *****/
+    nav ul li {
+        display: block;
+    }
+    
+    .nav-background {
+/*        display: none;*/
+    }
+    
+    .mobile-nav-back {
+        height: 140px;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(0,0,0,0.7);
+        border-bottom: 2px solid #d67e4d;
+        display: none;
+    }
+    
+    .mobile-nav-icon {
+        display: inline-block;
+        z-index: 200;
+        position: fixed;
+        right: 2%;
+    }
+    
+    nav ul {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 750px){
     
     /***** Section Header *****/

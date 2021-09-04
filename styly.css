@@ -139,6 +139,13 @@ nav ul li a:active {
     transition: 1s;
 }
 
+/***** Mobile navigation *****/
+.mobile-nav-icon {
+    float: right;
+    margin-top: -11px;
+    display: none;
+}
+
 /***** Section Our services *****/
 .photo-example img {
     width: 100%;
