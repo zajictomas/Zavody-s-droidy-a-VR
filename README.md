@@ -1,2 +1,225 @@
-# zajictomas.github.io
-Project website
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <link rel="stylesheet" href="styly.css">
+  <link rel="stylesheet" href="css/queries.css">
+  <link rel="stylesheet" href="grid.css">
+  <script src="lightbox-plus-jquery.min.js"></script>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  
+  <script src="css/script.js"></script>
+</head>
+
+<body>
+    
+    <header>
+      
+      <div class="nav-background"></div>
+       
+       <div class="nav-bar row">
+           <div id="logo">
+               <img src="images/logo.png" alt="">
+           </div>>
+       
+       <nav>
+           <ul>
+               <li> <a href="#" class="jq--scroll-about-us">O nás</a></li>
+               <li> <a href="#" class="jq--scroll-our-services">Naše služby</a></li>
+               <li> <a href="#" class="jq--scroll-reference">Reference</a></li>
+               <li> <a href="#" class="jq--scroll-photo-gallery">Fotogalerie</a></li>
+               <li> <a href="#" class="jq--scroll-contact-form">Kontakt</a></li>
+           </ul>
+       </nav>
+       </div>
+       
+       
+        <div class="header-text">
+            <h1>Závody s droidy a rozšířená realita se světelným mečem.</h1>
+            <a href="#" class="button button-full jq--scroll-button-first">Naše služby</a>
+            <a href="#" class="button button-empty jq--scroll-button-second">Fotogalerie z našich akcí</a></div><br><br><br>
+    </header>
+    
+    <main>
+           <section class="about-us row">
+           <div class="col span-1-of-3">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem.</p>
+           </div>
+            
+            <div class="col span-2-of-3">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem.</p> 
+            </div>
+            
+            <div class="col span-2-of-3">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem.</p> 
+            </div>
+        </section>
+          
+           <section class="about-us row jq--about-us">
+           <div class="empty-space"></div>
+            <div class="heading-main">
+               <h2>O nás</h2>
+           </div>
+            <div class="DV-info">
+               <div class="col span-1-of-2">
+                   <img src="images/festival.webp" alt="">
+               </div>
+               <div class="col span-1-of-2">
+                    <div class="text-story clearfix">
+                       <div></div>
+                        <p>V šesti letech jsem poprvé viděl Hvězdné Války a byl jsem zasažen tak, že mě to už nikdy nepustilo.</p></div>
+                    <div class="text-story clearfix">
+                       <div></div>
+                        <p>Proto jsem se rozhodl, v nadsázce, kus tohoto světa přiblížit i Vám. </p></div>
+                    <div class="text-story clearfix">
+                       <div></div>
+                        <p>Nejlepší je, že ať jste fanda, nebo ne, když budete v ruce držet telefon a ovládat malého droida, nebo se světelným mečem máchat jako pominutí a kosit nepřátele, bude vás to bavit.</p></div>
+                    <div class="text-story clearfix">
+                       <div></div>
+                        <p>A to je naše práce. A když vás práce baví...však víte.</p></div>
+                    <div class="text-story clearfix">
+                        <div></div>
+                        <p>Takže světelný meč do ruky, AR set na hlavu a můžete začít. Droidi, stormtroopeři, Kylo Ren nebo Darth Vader. Stačí zvolit protivníka a můžete ukázat co ve Vás je. </p></div>
+                    <div class="text-story clearfix">
+                        <div></div>
+                        <p>Máte rádi R2D2? Kdo by neměl. On a jeho kolegové BB-8 a BB-9E jsou připraveni na startovní čáře. Zvolte si svého favorita a závody můžou začít.</p></div>
+                </div>   
+           </div>
+           
+           </section>
+           
+           <section class="our-services row jq--our-services">
+           <div class="empty-space"></div>
+           <div class="heading-main row">
+               <h2>Naše služby</h2>
+           </div>
+           <div class="photo-example">
+               <div class="col span-1-of-2">
+                   <img src="images/1.jpeg" alt="">
+               </div>
+               <div class=" col span-1-of-2">
+                   <img src="images/4.jpg" alt="">
+               </div>
+           </div>
+           <div class="text-example">
+               <div class="col span-1-of-2">
+                   <h3>Droidi</h3>
+                   <p>4 hodiny pronájmu od 4000,-</p><br>
+                   <p>Rozumíme, že každá akce je specifická, proto se nám nebojte napsat Vaší představu, abychom pro Vás vytvořili nabídku šitou na míru.</p>
+               </div>
+               <div class=" col span-1-of-2">
+                   <h3>Rozšířená realita</h3>
+                   <p>4 hodiny pronájmu od 4000,-</p><br>
+                   <p>V ceně služby jsou samozřejmě naši asistenti, kteří Vám se vším rádi poradí. Doprava do 30 km od Prahy zdarma. Od 30 km 7,-/ km.</p>
+               </div>
+           </div>
+           </section>
+           
+           <section class="reference jq--reference">
+              <div class="empty-space"></div>
+               <div class="heading-main">
+                   <h2>Co o nás řekli naši zákazníci</h2>
+               </div> 
+                   
+              <div class="customer-reference row">
+                  <div class="col span-1-of-3 one-reference">
+                      <p>Na narozeninovou party či jiný večírek ideální. My si s tím užili několik hodin zábavy!</p>
+                      
+                      <div class="photo-name">
+                          <img src="images/John.jpg" alt="" class="clearfix">
+                          <p>Kateřina Marešová</p>
+                      </div>
+                  </div>
+                  <div class="col span-1-of-3 one-reference">
+                      <p>Splnění dětského snu! Být rytíř Jedi...K tomu lze dodat jediné...May the Force be with you!!</p>
+                      
+                      <div class="photo-name">
+                          <img src="images/John.jpg" alt="" class="clearfix">
+                          <p>Danny Sešívanej Muzikář</p>
+                      </div>
+                  </div>
+                  <div class="col span-1-of-3 one-reference">
+                      <p>Na narozeninovou party či jiný večírek ideální. My si s tím užili několik hodin zábavy!</p>
+                      
+                      <div class="photo-name">
+                          <img src="images/John.jpg" alt="" class="clearfix">
+                          <p>Tomáš Zajíc</p>
+                      </div>
+                  </div>
+              </div>
+           </section>
+           
+           <section class="photo-gallery jq--photo-gallery">
+              <div class="empty-space"></div>
+               <div class="heading-main">
+                   <h2>Fotogalerie z našich akcí</h2>
+               </div>
+               
+               <div class="photos row">
+                   <ul class="photo-segment">
+                        <li class="col span-1-of-2"><a href="images/1.jpeg" data-lightbox= "mygallery" data-title= "Droid"><img src="images/1.jpeg" alt=""></a></li>
+                       <li class="col span-1-of-2"><a href="images/11.jpg" data-lightbox= "mygallery" data-title= "VR set se světelným mečem"><img src="images/11.jpg" alt=""></a></li>
+                    </ul>
+                      
+                   <ul class="photo-segment">
+                        <li class="col span-1-of-2"><a href="images/2.jpeg" data-lightbox= "mygallery" data-title= "Droid"><img src="images/2.jpeg" alt=""></a></li>
+                        <li class="col span-1-of-2"><a href="images/5.jpg" data-lightbox= "mygallery" data-title= "VR set se světelným mečem"><img src="images/5.jpg" alt=""></a></li>
+                    </ul>
+                    
+                    <ul class="photo-segment">
+                        <li class="col span-1-of-2"><a href="images/3.jpg" data-lightbox= "mygallery" data-title= "Droidi"><img src="images/3.jpg" alt=""></a></li>
+                         <li class="col span-1-of-2"><a href="images/6.jpg" data-lightbox= "mygallery" data-title= "VR set se světelným mečem"><img src="images/6.jpg" alt=""></a></li>
+                    </ul>
+                    
+                    <ul class="photo-segment">
+                        <li class="col span-1-of-2"><a href="images/7.jpg" data-lightbox= "mygallery" data-title= "Závod s droidem"><img src="images/7.jpg" alt=""></a></li>
+                         <li class="col span-1-of-2"><a href="images/8.jpg" data-lightbox= "mygallery" data-title= "VR set se světelným mečem"><img src="images/8.jpg" alt=""></a></li>
+                    </ul>
+                    
+                    <ul class="photo-segment">
+                        <li class="col span-1-of-2"><a href="images/9.jpg" data-lightbox= "mygallery" data-title= "Droidi"><img src="images/9.jpg" alt=""></a></li>
+                         <li class="col span-1-of-2"><a href="images/10.jpg" data-lightbox= "mygallery" data-title= "VR set se světelným mečem"><img src="images/10.jpg" alt=""></a></li>
+                    </ul>
+               </div>
+           </section>
+           
+           <section class="jq--contact-form">
+              <div class="empty-space"></div>
+               <div class="heading-main">
+                   <h2>Zeptejte se nás na cokoliv</h2>
+               </div>
+               
+               <form action="" class="contact-form row">
+                   <input type="text" placeholder="Jméno"><br>
+                   <input type="text" placeholder="Příjmení"><br>
+                   <input type="mail" placeholder="Email"><br>
+                   <input type="text" placeholder="Telefon"><br>
+                   <textarea name="" id="" cols="30" rows="10" placeholder="Text Vaší zprávy"></textarea><br>
+                   <input type="submit" value="Odeslat">
+               </form>
+          </section>
+
+        
+    </main>
+    
+    <footer class="footer-page">
+        
+        <div class="row">
+            <div class="social-sites">
+                <p><a href="https://www.facebook.com/Dv-Production-107353290790505" target="_blank"><img src="images/facebook_icon.png" alt=""></a></p>
+                 <p><a href="https://www.instagram.com/dvprodcom" target="_blank"><img src="images/instagram_icon.png" alt=""></a></p>
+            </div>
+             
+             <div class="footer-text">
+                 Copywrite &copy; 2021 Pizza company. Všechna práva vyhrazena.
+            </div>
+        </div> 
+    </footer>
+    
+</body>
+</html>
