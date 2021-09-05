@@ -14,19 +14,14 @@
 
 @media only screen and (max-width: 1150px){
     
-    /***** Section Our services *****/
-    .photo-example img {
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-    
-    .photo-example .span-1-of-2 {
-        width: 48.3%;
-    }
-    
     /***** Section About-us *****/
     .DV-info .span-1-of-2 {
         width: 100%;
+    }
+    
+    .DV-info img {
+        margin-left: 2%;
+        margin-right: 2%;
     }
     
     .photo-example .span-1-of-2 {
@@ -41,6 +36,18 @@
         margin-left: 2%;
         margin-right: 2%;
     }
+    
+    .text-story p {
+        margin-left: 25px;
+        width: 99%;
+    }
+    
+    /***** Section Our services *****/
+    .photo-example img {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
     
     /***** Section Photo-gallery *****/
     .photo-segment {
@@ -59,7 +66,7 @@
     }
 }
 
-@media only screen and (max-width: 910px){
+@media only screen and (max-width: 1025px){
     /***** Mobile navigation *****/
     nav ul li {
         display: block;
@@ -67,15 +74,17 @@
     
     .nav-background {
 /*        display: none;*/
+        height: 70px;
     }
     
     .mobile-nav-back {
-        height: 140px;
+        height: 150px;
         position: fixed;
         width: 100%;
-        background-color: rgba(0,0,0,0.7);
+        background-color: rgba(0,0,0,0.9);
         border-bottom: 2px solid #d67e4d;
         display: none;
+        z-index: 100;
     }
     
     .mobile-nav-icon {
@@ -87,7 +96,15 @@
     
     nav ul {
         display: none;
+        z-index: 200;
+        margin-top: 5px;
     }
+    
+    nav ul li a:hover,
+    nav ul li a:active {
+    	border-bottom: 2px solid transparent;
+    }
+
 }
 
 @media only screen and (max-width: 750px){

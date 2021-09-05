@@ -56,9 +56,11 @@ header {
 }
 
 #logo img {
-    width: 150px;
+    width: 200px;
     position: absolute;
-    top: 2%;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 nav ul {
@@ -142,7 +144,7 @@ nav ul li a:active {
 /***** Mobile navigation *****/
 .mobile-nav-icon {
     float: right;
-    margin-top: -11px;
+    margin-top: 5px;
     display: none;
 }
 
