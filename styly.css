@@ -278,7 +278,13 @@ nav ul li a:active {
     outline: none;
 }
 
-.contact-form input[type="text"]:focus, .contact-form input[type="email"]:focus, textarea:focus {
+.contact-form input[type="text"]:focus, .contact-form input[type="email"]:focus {
+    width: 700px;
+    border-color: #dc4f00;
+    transition: 0.5s;
+}
+
+.contact-form textarea:focus {
     width: 700px;
     border-color: #dc4f00;
     transition: 0.5s;

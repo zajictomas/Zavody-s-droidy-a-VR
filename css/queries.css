@@ -16,7 +16,7 @@
     
     /***** Section About-us *****/
     .DV-info .span-1-of-2 {
-        width: 100%;
+        width: 96%;
     }
     
     .DV-info img {
@@ -38,8 +38,12 @@
     }
     
     .text-story p {
-        margin-left: 25px;
+        margin-left: 0.7%;
         width: 99%;
+    }
+    
+    .text-story div {
+        display: none;
     }
     
     /***** Section Our services *****/
@@ -48,6 +52,10 @@
         margin-right: 2%;
     }
     
+    .text-example p {
+        
+    }
+
     
     /***** Section Photo-gallery *****/
     .photo-segment {
@@ -142,8 +150,8 @@
     /***** Section Reference *****/
     .col.span-1-of-3.one-reference {
         width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 2%;
+        margin-right: 2%;
     }
     
     .photo-name {
